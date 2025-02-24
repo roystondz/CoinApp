@@ -1,16 +1,57 @@
-# coin
+# Coin Exchange Rate App
 
-A new Flutter project.
+A Flutter application that displays real-time exchange rates for Bitcoin (BTC), Ethereum (ETH), and Litecoin (LTC) in various currencies.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Live exchange rate updates for BTC, ETH, and LTC
+- Support for multiple fiat currencies (USD, EUR, GBP, etc.)
+- API integration with real-time data providers
+- Clean and user-friendly UI
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/coin-exchange-rate-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd coin-exchange-rate-app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## API Integration
+
+This app fetches real-time cryptocurrency exchange rates using an external API such as:
+- [CoinAPIio](https://www.coinapi.io/)
+
+## Dependencies
+
+Ensure you have the following dependencies added to your `pubspec.yaml`:
+```yaml
+  dependencies:
+    flutter:
+      sdk: flutter
+    http: ^0.13.4
+```
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Contact
+
+For any inquiries, reach out at [roystonad2004@gmail.com](mailto:roystonad2004@gmail.com).
+

@@ -1,4 +1,5 @@
 # Miscellaneous
+./lib/key
 *.class
 *.log
 *.pyc
